@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio 30 Dias Sem Glúten · Chef Luciene</title>
+  <meta name="description" content="Transforme sua alimentação sem glúten em 30 dias com receitas deliciosas, mixes artesanais e suporte da Chef Luciene." />
+  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════ URGENCY BAR ══ -->
+  <div class="urgency-bar">
+    ⚡ OFERTA FUNDADORES: 50% OFF — Apenas para a 1ª turma | Vagas limitadas
+  </div>
+
+  <!-- ═══════════════════════════════════════ HEADER ══ -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo">
+        <img src="assets/images/logo-desafio.png" alt="Chef GlutenFree" class="header__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <span class="header__logo-text" style="display:none">
+          <span class="logo-chef">Chef</span><span class="logo-gf">GlutenFree</span>
+        </span>
+      </a>
+      <a href="#oferta" class="header__cta-main">Quero minha vaga →</a>
+      <button class="header__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="header__mobile-nav" id="mobileNav">
+      <a href="#oferta" class="header__mobile-cta">Quero minha vaga →</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════ HERO ══ -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+
+        <div class="hero__content">
+          <div class="hero__badge reveal">🌾 EDIÇÃO FUNDADORES 2025</div>
+
+          <h1 class="hero__headline reveal">
+            30 Dias Sem Glúten Podem Transformar Sua Saúde de Formas Que Você Não Imagina
+          </h1>
+
+          <p class="hero__sub reveal">
+            Um desafio de alimentação consciente para quem quer mais energia, menos inchaço,
+            intestino funcionando e clareza mental — com receitas que funcionam de verdade.
+          </p>
+
+          <div class="hero__price-block reveal">
+            <div class="hero__price-line">
+              <s class="hero__price-old">De R$ 997</s>
+              <span class="hero__price-current">Por apenas <strong>R$ 497</strong></span>
+            </div>
+            <a href="#oferta" class="btn btn--hero">
+              SIM! QUERO PARTICIPAR DO DESAFIO →
+            </a>
+            <p class="hero__microcopy">
+              🔒 Pagamento seguro &nbsp;|&nbsp; 📅 Acesso por 12 meses &nbsp;|&nbsp; 🎯 Edição única de fundadores
+            </p>
+          </div>
+        </div>
+
+        <div class="hero__image-wrap reveal">
+          <div class="hero__image-frame">
+            <div class="hero__image-placeholder">
+              <span class="hero__placeholder-text">FOTO DA CHEF</span>
+              <span class="hero__placeholder-sub">adicionar depois</span>
+            </div>
+          </div>
+          <p class="hero__image-caption">Chef Luciene Marques · Chef GlutenFree</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════ TRUST BAR ══ -->
+    <section class="trust-bar">
+      <div class="trust-bar__inner">
+        <div class="trust-bar__item reveal">
+          <span class="trust-bar__icon">🔒</span>
+          <span class="trust-bar__label">Pagamento Seguro</span>
+        </div>
+        <div class="trust-bar__divider"></div>
+        <div class="trust-bar__item reveal" style="--delay:.1s">
+          <span class="trust-bar__icon">📅</span>
+          <span class="trust-bar__label">Acesso 12 meses</span>
+        </div>
+        <div class="trust-bar__divider"></div>
+        <div class="trust-bar__item reveal" style="--delay:.2s">
+          <span class="trust-bar__icon">💬</span>
+          <span class="trust-bar__label">Suporte no Telegram</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PROBLEMA ══ -->
+    <section class="problema" id="problema">
+      <div class="container">
+
+        <div class="problema__header">
+          <div class="section-label section-label--amber reveal">Você se Reconhece?</div>
+          <h2 class="section-title reveal">
+            Você se Identifica com Algum<br />Desses Sinais?
+          </h2>
+          <p class="problema__intro reveal">
+            Muitas pessoas convivem com esses sintomas por anos achando que é "normal". Não é.
+          </p>
+        </div>
+
+        <div class="problema__grid">
+          <div class="problema__card reveal">
+            <span class="problema__icon">😴</span>
+            <div class="problema__card-body">
+              <h3>Cansaço constante</h3>
+              <p>Mesmo dormindo bem, você acorda sem energia e arrasta o dia no piloto automático.</p>
+            </div>
+          </div>
+          <div class="problema__card reveal" style="--delay:.05s">
+            <span class="problema__icon">🤢</span>
+            <div class="problema__card-body">
+              <h3>Barriga estufada</h3>
+              <p>Inchaço logo após as refeições, aquela sensação de "roupa apertando" sem ter comido demais.</p>
+            </div>
+          </div>
+          <div class="problema__card reveal" style="--delay:.1s">
+            <span class="problema__icon">🧠</span>
+            <div class="problema__card-body">
+              <h3>Névoa mental</h3>
+              <p>Dificuldade de concentração, foco fragmentado, sensação de que o pensamento não flui.</p>
+            </div>
+          </div>
+          <div class="problema__card reveal" style="--delay:.15s">
+            <span class="problema__icon">💩</span>
+            <div class="problema__card-body">
+              <h3>Intestino irregular</h3>
+              <p>Preso, solto, inconstante — seu trânsito intestinal nunca está equilibrado de verdade.</p>
+            </div>
+          </div>
+          <div class="problema__card reveal" style="--delay:.2s">
+            <span class="problema__icon">😠</span>
+            <div class="problema__card-body">
+              <h3>Mudanças de humor</h3>
+              <p>Irritabilidade, ansiedade ou tristeza que aparecem do nada, sem motivo claro aparente.</p>
+            </div>
+          </div>
+          <div class="problema__card reveal" style="--delay:.25s">
+            <span class="problema__icon">🔴</span>
+            <div class="problema__card-body">
+              <h3>Pele inflamada</h3>
+              <p>Acne persistente, vermelhidão, ressecamento ou sensibilidade que não respondem a cremes.</p>
+            </div>
+          </div>
+          <div class="problema__card reveal" style="--delay:.3s">
+            <span class="problema__icon">🌙</span>
+            <div class="problema__card-body">
+              <h3>Sono de má qualidade</h3>
+              <p>Você dorme horas suficientes mas acorda cansado(a), como se o descanso não fosse real.</p>
+            </div>
+          </div>
+          <div class="problema__card reveal" style="--delay:.35s">
+            <span class="problema__icon">🦴</span>
+            <div class="problema__card-body">
+              <h3>Dores e inchaço no corpo</h3>
+              <p>Articulações doloridas, sensação de corpo pesado ou inflamado sem causa óbvia.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="problema__insight reveal">
+          <div class="problema__insight-icon">💡</div>
+          <div class="problema__insight-text">
+            <p>Esses sintomas podem parecer isolados, mas muitas vezes têm uma causa em comum: <strong>a inflamação causada pelo glúten.</strong> E a melhor forma de descobrir se ele está te afetando é simples — tirá-lo por 30 dias e observar o que acontece.</p>
+          </div>
+        </div>
+
+        <div class="problema__cta reveal">
+          <p class="problema__cta-hook">E se em 30 dias você se sentisse completamente diferente?</p>
+          <a href="#solucao" class="problema__cta-arrow" aria-label="Ver a solução">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SOLUÇÃO ══ -->
+    <section class="solucao" id="solucao">
+      <div class="solucao__glow solucao__glow--1"></div>
+      <div class="solucao__glow solucao__glow--2"></div>
+      <div class="container">
+
+        <div class="solucao__header">
+          <div class="section-label section-label--light reveal">A Metodologia</div>
+          <h2 class="solucao__title reveal">
+            O Desafio 30 Dias Sem Glúten:<br />
+            <em>Mais do que uma dieta, uma experiência de autocuidado</em>
+          </h2>
+        </div>
+
+        <div class="solucao__pilares">
+          <div class="solucao__pilar reveal">
+            <span class="solucao__pilar-icon">🧬</span>
+            <div class="solucao__pilar-body">
+              <h3>Ciência</h3>
+              <p>Questionários validados pelo Centro Brasileiro de Nutrição Funcional, Escala de Bristol e Relógio Metabólico para você entender o que está acontecendo no seu corpo.</p>
+            </div>
+          </div>
+          <div class="solucao__pilar reveal" style="--delay:.1s">
+            <span class="solucao__pilar-icon">🍳</span>
+            <div class="solucao__pilar-body">
+              <h3>Prática</h3>
+              <p>Receitas reais feitas com os Mixes exclusivos da Chef, guia completo de alimentos permitidos e proibidos, e dicas de congelamento para facilitar o dia a dia.</p>
+            </div>
+          </div>
+          <div class="solucao__pilar reveal" style="--delay:.2s">
+            <span class="solucao__pilar-icon">🤝</span>
+            <div class="solucao__pilar-body">
+              <h3>Comunidade</h3>
+              <p>Grupo exclusivo no Telegram com suporte direto da Chef Luciene, troca de experiências e celebração de cada conquista ao longo dos 30 dias.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="solucao__recebe">
+          <div class="solucao__recebe-header reveal">
+            <h3>O que você vai receber</h3>
+          </div>
+          <ul class="solucao__checklist">
+            <li class="reveal">
+              <span class="solucao__check">✅</span>
+              <span>Manual completo do desafio <strong>(38 páginas)</strong></span>
+            </li>
+            <li class="reveal" style="--delay:.04s">
+              <span class="solucao__check">✅</span>
+              <span>Questionário de Hiperpermeabilidade Intestinal</span>
+            </li>
+            <li class="reveal" style="--delay:.08s">
+              <span class="solucao__check">✅</span>
+              <span>Questionário de Rastreamento Metabólico</span>
+            </li>
+            <li class="reveal" style="--delay:.12s">
+              <span class="solucao__check">✅</span>
+              <span>Guia completo de alimentos permitidos e proibidos</span>
+            </li>
+            <li class="reveal" style="--delay:.16s">
+              <span class="solucao__check">✅</span>
+              <span>Guia da Escala de Bristol</span>
+            </li>
+            <li class="reveal" style="--delay:.2s">
+              <span class="solucao__check">✅</span>
+              <span>Mixes de farinhas sem glúten <strong>(receitas Mix 1 e Mix 2)</strong></span>
+            </li>
+            <li class="reveal" style="--delay:.24s">
+              <span class="solucao__check">✅</span>
+              <span>Dicas de congelamento e praticidade no dia a dia</span>
+            </li>
+            <li class="reveal" style="--delay:.28s">
+              <span class="solucao__check">✅</span>
+              <span>Acesso à comunidade exclusiva no Telegram</span>
+            </li>
+            <li class="reveal" style="--delay:.32s">
+              <span class="solucao__check">✅</span>
+              <span>Suporte da Chef por <strong>12 meses</strong></span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ INCLUÍDO ══ -->
+    <section class="incluido section" id="incluido">
+      <div class="container">
+        <div class="section-label reveal">O que você recebe</div>
+        <h2 class="section-title reveal">Tudo que você precisa para<br />os 30 dias de transformação</h2>
+        <div class="incluido__grid">
+          <div class="incluido__card reveal">
+            <div class="incluido__card-icon">📚</div>
+            <div class="incluido__card-tag">Principal</div>
+            <h3>30 Receitas Exclusivas</h3>
+            <p>Uma receita nova por dia, do café da manhã ao jantar, com passo a passo detalhado em vídeo e PDF.</p>
+            <span class="incluido__value">Valor: R$ 197</span>
+          </div>
+          <div class="incluido__card reveal" style="--delay:.1s">
+            <div class="incluido__card-icon">🌾</div>
+            <div class="incluido__card-tag">Bônus</div>
+            <h3>Guia dos Mixes Artesanais</h3>
+            <p>Aprenda a criar seus próprios mixes em casa, muito mais baratos que os industrializados.</p>
+            <span class="incluido__value">Valor: R$ 97</span>
+          </div>
+          <div class="incluido__card reveal" style="--delay:.2s">
+            <div class="incluido__card-icon">🗓️</div>
+            <div class="incluido__card-tag">Bônus</div>
+            <h3>Planejamento de Cardápio</h3>
+            <p>4 semanas de cardápios completos para organizar sua alimentação sem stress.</p>
+            <span class="incluido__value">Valor: R$ 67</span>
+          </div>
+          <div class="incluido__card reveal" style="--delay:.3s">
+            <div class="incluido__card-icon">💬</div>
+            <div class="incluido__card-tag">Suporte</div>
+            <h3>Grupo VIP no WhatsApp</h3>
+            <p>Acesso ao grupo exclusivo com a Chef Luciene para tirar dúvidas e se inspirar com a comunidade.</p>
+            <span class="incluido__value">Valor: R$ 197</span>
+          </div>
+          <div class="incluido__card reveal" style="--delay:.4s">
+            <div class="incluido__card-icon">🛒</div>
+            <div class="incluido__card-tag">Bônus</div>
+            <h3>Lista de Compras Semanal</h3>
+            <p>Lista organizada por seção de mercado para economizar tempo e dinheiro nas compras.</p>
+            <span class="incluido__value">Valor: R$ 47</span>
+          </div>
+          <div class="incluido__card reveal" style="--delay:.5s">
+            <div class="incluido__card-icon">♾️</div>
+            <div class="incluido__card-tag">Especial</div>
+            <h3>Acesso Vitalício</h3>
+            <p>Todo o material fica disponível para você acessar quando quiser, incluindo atualizações futuras.</p>
+            <span class="incluido__value">Acesso Vitalício</span>
+          </div>
+        </div>
+        <div class="incluido__total reveal">
+          <p>Valor total do que você recebe: <span class="strike">R$ 605</span></p>
+          <p class="incluido__total-price">Hoje por apenas <strong>R$ 97</strong></p>
+          <a href="#oferta" class="btn btn--primary btn--lg">Garantir Minha Vaga</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ RECEITAS ══ -->
+    <section class="receitas section" id="receitas">
+      <div class="receitas__bg"></div>
+      <div class="container">
+        <div class="section-label reveal">Amostra grátis</div>
+        <h2 class="section-title reveal">Veja algumas das receitas<br />que você vai aprender</h2>
+        <div class="receitas__grid">
+          <div class="receitas__card reveal">
+            <div class="receitas__card-img">
+              <img src="assets/images/receita-1.jpg" alt="Pão de Forma Fofinho" loading="lazy" onerror="this.src='https://placehold.co/400x280/e8923a/fff?text=Pão+de+Forma'" />
+              <span class="receitas__card-day">Dia 1</span>
+            </div>
+            <div class="receitas__card-body">
+              <span class="receitas__card-category">☕ Café da Manhã</span>
+              <h3>Pão de Forma Fofinho</h3>
+              <p>O pão que você achava impossível fazer em casa — fofinho, saboroso e sem glúten.</p>
+              <div class="receitas__card-meta">
+                <span>⏱ 35 min</span>
+                <span>👍 98% aprovação</span>
+              </div>
+            </div>
+          </div>
+          <div class="receitas__card reveal" style="--delay:.1s">
+            <div class="receitas__card-img">
+              <img src="assets/images/receita-2.jpg" alt="Macarrão à Bolonhesa" loading="lazy" onerror="this.src='https://placehold.co/400x280/1a3c2a/fff?text=Macarrão'" />
+              <span class="receitas__card-day">Dia 8</span>
+            </div>
+            <div class="receitas__card-body">
+              <span class="receitas__card-category">🍝 Almoço</span>
+              <h3>Macarrão à Bolonhesa GF</h3>
+              <p>Macarrão caseiro sem glúten que não empapa — com textura al dente de verdade.</p>
+              <div class="receitas__card-meta">
+                <span>⏱ 45 min</span>
+                <span>👍 97% aprovação</span>
+              </div>
+            </div>
+          </div>
+          <div class="receitas__card reveal" style="--delay:.2s">
+            <div class="receitas__card-img">
+              <img src="assets/images/receita-1.jpg" alt="Bolo de Chocolate" loading="lazy" onerror="this.src='https://placehold.co/400x280/c25c3a/fff?text=Bolo+Chocolate'" />
+              <span class="receitas__card-day">Dia 15</span>
+            </div>
+            <div class="receitas__card-body">
+              <span class="receitas__card-category">🎂 Sobremesa</span>
+              <h3>Bolo de Chocolate Húmido</h3>
+              <p>O bolo mais pedido do desafio — impossível dizer que é sem glúten.</p>
+              <div class="receitas__card-meta">
+                <span>⏱ 50 min</span>
+                <span>👍 99% aprovação</span>
+              </div>
+            </div>
+          </div>
+          <div class="receitas__card reveal" style="--delay:.3s">
+            <div class="receitas__card-img">
+              <img src="assets/images/receita-2.jpg" alt="Pizza Crocante" loading="lazy" onerror="this.src='https://placehold.co/400x280/4a7c59/fff?text=Pizza+GF'" />
+              <span class="receitas__card-day">Dia 22</span>
+            </div>
+            <div class="receitas__card-body">
+              <span class="receitas__card-category">🍕 Jantar</span>
+              <h3>Pizza de Massa Crocante</h3>
+              <p>A massa que ficou famosa no grupo — crocante por fora, macia por dentro.</p>
+              <div class="receitas__card-meta">
+                <span>⏱ 40 min</span>
+                <span>👍 96% aprovação</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="receitas__cta reveal">
+          <p>E mais <strong>26 receitas</strong> esperando por você dentro do desafio</p>
+          <a href="#oferta" class="btn btn--primary">Acessar Todas as Receitas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ MIXES ══ -->
+    <section class="mixes section" id="mixes">
+      <div class="container">
+        <div class="section-label reveal">Produtos exclusivos</div>
+        <h2 class="section-title reveal">Os Mixes que tornam<br />tudo mais <em>fácil</em></h2>
+        <p class="section-desc reveal">Aprenda a criar seus próprios mixes artesanais — a base para todas as receitas do desafio.</p>
+        <div class="mixes__grid">
+          <div class="mixes__card reveal">
+            <div class="mixes__card-img">
+              <img src="assets/images/produto-mix1.jpg" alt="Mix para Pães" loading="lazy" onerror="this.src='https://placehold.co/340x340/f5efe6/1a3c2a?text=Mix+Pães'" />
+            </div>
+            <div class="mixes__card-body">
+              <h3>Mix para Pães e Salgados</h3>
+              <p>A combinação perfeita de farinhas para uma textura macia e crocante nos pães artesanais.</p>
+              <ul>
+                <li>✓ Funciona em qualquer receita de pão</li>
+                <li>✓ 70% mais barato que o industrial</li>
+                <li>✓ Dura até 6 meses na despensa</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mixes__card reveal" style="--delay:.2s">
+            <div class="mixes__card-img">
+              <img src="assets/images/produto-mix2.jpg" alt="Mix para Bolos" loading="lazy" onerror="this.src='https://placehold.co/340x340/f5efe6/c25c3a?text=Mix+Bolos'" />
+            </div>
+            <div class="mixes__card-body">
+              <h3>Mix para Bolos e Doces</h3>
+              <p>O segredo da leveza e umidade nos bolos — ninguém vai acreditar que é sem glúten.</p>
+              <ul>
+                <li>✓ Substituição 1:1 da farinha de trigo</li>
+                <li>✓ Resultado sempre consistente</li>
+                <li>✓ Sem sabor residual</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ DEPOIMENTOS ══ -->
+    <section class="depoimentos" id="depoimentos">
+      <div class="container">
+
+        <div class="depoimentos__header">
+          <div class="section-label section-label--light reveal">Depoimentos</div>
+          <h2 class="depoimentos__title reveal">O Que Dizem Quem Já Passou pela Experiência</h2>
+          <p class="depoimentos__subtitle reveal">Resultados reais de pessoas reais que decidiram cuidar da própria saúde</p>
+        </div>
+
+        <div class="depoimentos__slider-wrap">
+          <button class="dep-nav dep-nav--prev" id="depPrev" aria-label="Depoimento anterior">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+
+          <div class="depoimentos__slider" id="depSlider">
+            <div class="depoimentos__track" id="depTrack">
+
+              <!-- Card 1 -->
+              <div class="dep-card">
+                <div class="dep-card__inner">
+                  <div class="dep-card__top">
+                    <div class="dep-card__photo">
+                      <img src="assets/images/depoimentos/dep-1.jpg" alt="[NOME DA PESSOA 1]" loading="lazy"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                      <div class="dep-card__photo-ph">?</div>
+                    </div>
+                    <div class="dep-card__meta">
+                      <strong class="dep-card__name">[NOME DA PESSOA 1]</strong>
+                      <span class="dep-card__city">[Cidade] — adicionar depois</span>
+                      <div class="dep-card__stars" aria-label="5 estrelas">★★★★★</div>
+                    </div>
+                  </div>
+                  <blockquote class="dep-card__text">"Depoimento 1 — adicionar depois"</blockquote>
+                  <div class="dep-card__badge">Ex: Perdeu 4kg em 30 dias</div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="dep-card">
+                <div class="dep-card__inner">
+                  <div class="dep-card__top">
+                    <div class="dep-card__photo">
+                      <img src="assets/images/depoimentos/dep-2.jpg" alt="[NOME DA PESSOA 2]" loading="lazy"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                      <div class="dep-card__photo-ph">?</div>
+                    </div>
+                    <div class="dep-card__meta">
+                      <strong class="dep-card__name">[NOME DA PESSOA 2]</strong>
+                      <span class="dep-card__city">[Cidade] — adicionar depois</span>
+                      <div class="dep-card__stars" aria-label="5 estrelas">★★★★★</div>
+                    </div>
+                  </div>
+                  <blockquote class="dep-card__text">"Depoimento 2 — adicionar depois"</blockquote>
+                  <div class="dep-card__badge">Ex: Intestino regulado</div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="dep-card">
+                <div class="dep-card__inner">
+                  <div class="dep-card__top">
+                    <div class="dep-card__photo">
+                      <img src="assets/images/depoimentos/dep-3.jpg" alt="[NOME DA PESSOA 3]" loading="lazy"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                      <div class="dep-card__photo-ph">?</div>
+                    </div>
+                    <div class="dep-card__meta">
+                      <strong class="dep-card__name">[NOME DA PESSOA 3]</strong>
+                      <span class="dep-card__city">[Cidade] — adicionar depois</span>
+                      <div class="dep-card__stars" aria-label="5 estrelas">★★★★★</div>
+                    </div>
+                  </div>
+                  <blockquote class="dep-card__text">"Depoimento 3 — adicionar depois"</blockquote>
+                  <div class="dep-card__badge">Ex: Sem inchaço</div>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="dep-card">
+                <div class="dep-card__inner">
+                  <div class="dep-card__top">
+                    <div class="dep-card__photo">
+                      <img src="assets/images/depoimentos/dep-4.jpg" alt="[NOME DA PESSOA 4]" loading="lazy"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                      <div class="dep-card__photo-ph">?</div>
+                    </div>
+                    <div class="dep-card__meta">
+                      <strong class="dep-card__name">[NOME DA PESSOA 4]</strong>
+                      <span class="dep-card__city">[Cidade] — adicionar depois</span>
+                      <div class="dep-card__stars" aria-label="5 estrelas">★★★★★</div>
+                    </div>
+                  </div>
+                  <blockquote class="dep-card__text">"Depoimento 4 — adicionar depois"</blockquote>
+                  <div class="dep-card__badge">Ex: Mais energia</div>
+                </div>
+              </div>
+
+            </div><!-- /track -->
+          </div><!-- /slider -->
+
+          <button class="dep-nav dep-nav--next" id="depNext" aria-label="Próximo depoimento">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div><!-- /slider-wrap -->
+
+        <div class="depoimentos__dots" id="depDots" role="group" aria-label="Posição do carrossel"></div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CHEF ══ -->
+    <section class="chef" id="chef">
+      <div class="container">
+        <div class="chef__inner">
+
+          <div class="chef__image-col reveal">
+            <div class="chef__image-frame">
+              <img src="assets/images/chef-luciene.jpg" alt="Chef Luciene Marques" loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <div class="chef__image-placeholder">
+                <span class="chef__placeholder-text">FOTO DA CHEF LUCIENE MARQUES</span>
+                <span class="chef__placeholder-sub">adicionar depois</span>
+              </div>
+            </div>
+            <p class="chef__image-caption">Chef Luciene Marques | Chef GlutenFree</p>
+          </div>
+
+          <div class="chef__content reveal" style="--delay:.1s">
+            <div class="section-label section-label--amber">Quem vai te guiar</div>
+            <h2 class="chef__name">Chef Luciene Marques</h2>
+            <p class="chef__role">Criadora do Canal Chef GlutenFree</p>
+            <p class="chef__bio">A Chef Luciene Marques é a mente criativa por trás do canal Chef GlutenFree, referência em alimentação sem glúten no Brasil. Apaixonada por transformar receitas tradicionais em versões saborosas e saudáveis, ela desenvolveu os Mixes de Farinhas exclusivos e acompanha centenas de pessoas na jornada de eliminar o glúten com leveza, praticidade e muito sabor.</p>
+            <div class="chef__social">
+              <a href="https://youtube.com/@chefglutenfree" target="_blank" rel="noopener" class="chef__social-item">
+                <span class="chef__social-icon">▶</span>
+                <span>@chefglutenfree</span>
+              </a>
+              <a href="https://instagram.com/chef.glutenfree" target="_blank" rel="noopener" class="chef__social-item">
+                <span class="chef__social-icon">📱</span>
+                <span>@chef.glutenfree</span>
+              </a>
+              <a href="https://t.me/trintadiassemgluten" target="_blank" rel="noopener" class="chef__social-item">
+                <span class="chef__social-icon">💬</span>
+                <span>@trintadiassemgluten</span>
+              </a>
+            </div>
+            <a href="https://youtube.com/@chefglutenfree" target="_blank" rel="noopener" class="btn btn--chef">
+              Ver receitas no YouTube →
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════ BÔNUS ══ -->
+    <section class="bonus" id="bonus">
+      <div class="container">
+
+        <div class="bonus__header">
+          <div class="section-label section-label--amber reveal">Bônus Exclusivos</div>
+          <h2 class="bonus__title reveal">🎁 Além do Desafio, Você Ainda Recebe 4 Bônus Exclusivos</h2>
+          <p class="bonus__subtitle reveal">Tudo isso incluso para fundadores — sem custo adicional</p>
+        </div>
+
+        <div class="bonus__grid">
+
+          <!-- BÔNUS 1 -->
+          <div class="bonus__card reveal">
+            <div class="bonus__card-badge">BÔNUS #1</div>
+            <div class="bonus__card-icon">🏠</div>
+            <div class="bonus__card-body">
+              <h3 class="bonus__card-title">Guia de Preparação: Como Organizar Sua Cozinha e Despensa</h3>
+              <p class="bonus__card-desc">Passo a passo para revisar sua despensa, o que retirar, o que comprar e como organizar as refeições da semana com antecedência. A preparação do ambiente é o segredo para não desistir nos primeiros dias.</p>
+              <div class="bonus__card-value">
+                <span class="bonus__value-label">Incluso</span>
+                <span class="bonus__value-price">Valor: Impagável</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 2 -->
+          <div class="bonus__card reveal" style="--delay:.08s">
+            <div class="bonus__card-badge">BÔNUS #2</div>
+            <div class="bonus__card-icon">🎂</div>
+            <div class="bonus__card-body">
+              <h3 class="bonus__card-title">Mix Básico 1 — Para Bolos, Crepes e Panquecas</h3>
+              <p class="bonus__card-desc">A receita completa do Mix de Farinhas 1 da Chef GlutenFree: 500g farinha de arroz + 176g amido de milho + 174g fécula de batata + 150g polvilho doce + 1 colher de goma xantana. A base perfeita para suas receitas doces sem glúten.</p>
+              <div class="bonus__card-img-ph">
+                <span>FOTO DO PRODUTO MIX 1</span>
+                <small>adicionar depois</small>
+              </div>
+              <div class="bonus__card-value">
+                <span class="bonus__value-label">Incluso</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 3 -->
+          <div class="bonus__card reveal" style="--delay:.16s">
+            <div class="bonus__card-badge">BÔNUS #3</div>
+            <div class="bonus__card-icon">🍞</div>
+            <div class="bonus__card-body">
+              <h3 class="bonus__card-title">Mix Básico 2 — Para Pães e Broas</h3>
+              <p class="bonus__card-desc">A receita completa do Mix de Farinhas 2 da Chef GlutenFree: 400g farinha de arroz integral + 300g fécula de batata + 200g amido de milho + 70g polvilho doce + 15g goma xantana + 15g psyllium husk em pó. O segredo dos pães sem glúten que ficam macios de verdade.</p>
+              <div class="bonus__card-img-ph">
+                <span>FOTO DO PRODUTO MIX 2</span>
+                <small>adicionar depois</small>
+              </div>
+              <div class="bonus__card-value">
+                <span class="bonus__value-label">Incluso</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 4 -->
+          <div class="bonus__card bonus__card--star reveal" style="--delay:.24s">
+            <div class="bonus__card-badge bonus__card-badge--star">BÔNUS #4 — MAIS VALIOSO</div>
+            <div class="bonus__card-icon">🌟</div>
+            <div class="bonus__card-body">
+              <h3 class="bonus__card-title">Quinzena de Conscientização Sem Glúten</h3>
+              <p class="bonus__card-desc">Conteúdo completo da Quinzena de Conscientização Sem Glúten — produto pago que normalmente custa R$ 97 — liberado gratuitamente para todos os fundadores. Um mergulho profundo no universo da alimentação consciente e sem glúten.</p>
+              <div class="bonus__card-highlight">
+                <s class="bonus__highlight-old">R$ 97</s>
+                <span class="bonus__highlight-free">GRÁTIS para fundadores</span>
+              </div>
+              <div class="bonus__card-gift">🎁 PRESENTE EXCLUSIVO</div>
+            </div>
+          </div>
+
+        </div><!-- /grid -->
+
+        <div class="bonus__summary reveal">
+          <div class="bonus__summary-text">
+            <span class="bonus__summary-label">Valor total dos bônus:</span>
+            <span class="bonus__summary-value"><s>R$ 97+</s> em conteúdo extra</span>
+            <span class="bonus__summary-free">Você recebe tudo por <strong>R$ 0 extras</strong></span>
+          </div>
+          <a href="#oferta" class="btn btn--hero bonus__summary-btn">
+            QUERO OS BÔNUS + O DESAFIO →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════ GARANTIA ══ -->
+    <section class="garantia" id="garantia">
+      <div class="garantia__glow"></div>
+      <div class="container">
+        <div class="garantia__inner reveal">
+          <div class="garantia__shield">🛡️</div>
+          <h2 class="garantia__title">Sua Segurança em Primeiro Lugar</h2>
+          <p class="garantia__days">Garantia de 7 Dias</p>
+          <p class="garantia__text">Se nos primeiros 7 dias você sentir que o Desafio não é para você, basta nos contatar e devolveremos <strong>100% do seu investimento</strong>. Sem perguntas, sem burocracia. Queremos que você se sinta seguro(a) para dar esse passo.</p>
+          <div class="garantia__obs">
+            ⚕️ <strong>Importante:</strong> este desafio não substitui acompanhamento médico. Pessoas com diabetes, cirrose hepática ou distúrbios metabólicos devem consultar seu médico antes de iniciar.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════ OFERTA ══ -->
+    <section class="oferta" id="oferta">
+      <div class="oferta__glow oferta__glow--1"></div>
+      <div class="oferta__glow oferta__glow--2"></div>
+      <div class="container">
+
+        <!-- Countdown -->
+        <div class="oferta__countdown-wrap reveal">
+          <p class="oferta__countdown-label">Esta oferta encerra em:</p>
+          <div class="oferta__countdown" id="countdown" aria-live="polite">
+            <div class="cnt-unit">
+              <span class="cnt-num" id="cntDays">00</span>
+              <span class="cnt-label">dias</span>
+            </div>
+            <span class="cnt-sep">:</span>
+            <div class="cnt-unit">
+              <span class="cnt-num" id="cntHours">00</span>
+              <span class="cnt-label">horas</span>
+            </div>
+            <span class="cnt-sep">:</span>
+            <div class="cnt-unit">
+              <span class="cnt-num" id="cntMins">00</span>
+              <span class="cnt-label">min</span>
+            </div>
+            <span class="cnt-sep">:</span>
+            <div class="cnt-unit">
+              <span class="cnt-num" id="cntSecs">00</span>
+              <span class="cnt-label">seg</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Header -->
+        <div class="oferta__head">
+          <div class="oferta__badge-urg reveal">⚡ OFERTA DE FUNDADORES — ENCERRA EM BREVE</div>
+          <h2 class="oferta__title reveal">Comece Hoje Sua Transformação</h2>
+        </div>
+
+        <!-- Box -->
+        <div class="oferta__box reveal">
+
+          <div class="oferta__box-top">
+            <h3 class="oferta__box-title">Desafio 30 Dias Sem Glúten — Edição Fundadores</h3>
+          </div>
+
+          <ul class="oferta__checklist">
+            <li><span class="oferta__check">✅</span><span>Acesso completo ao Desafio 30 Dias Sem Glúten</span></li>
+            <li><span class="oferta__check">✅</span><span>Manual completo <strong>(38 páginas)</strong></span></li>
+            <li><span class="oferta__check">✅</span><span>Questionários funcionais validados</span></li>
+            <li><span class="oferta__check">✅</span><span>Guias de alimentação e Escala de Bristol</span></li>
+            <li><span class="oferta__check">✅</span><span>Comunidade exclusiva no Telegram</span></li>
+            <li><span class="oferta__check">✅</span><span><strong>Bônus #1:</strong> Guia de Preparação</span></li>
+            <li><span class="oferta__check">✅</span><span><strong>Bônus #2:</strong> Receita Mix 1 de Farinhas</span></li>
+            <li><span class="oferta__check">✅</span><span><strong>Bônus #3:</strong> Receita Mix 2 de Farinhas</span></li>
+            <li><span class="oferta__check">✅</span><span><strong>Bônus #4:</strong> Quinzena de Conscientização <em>(valor R$ 97)</em></span></li>
+            <li><span class="oferta__check">✅</span><span>Acesso por <strong>12 meses</strong></span></li>
+          </ul>
+
+          <div class="oferta__pricing">
+            <s class="oferta__price-from">De R$ 997</s>
+            <div class="oferta__price-main">
+              <span class="oferta__price-currency">R$</span>
+              <span class="oferta__price-amount">497</span>
+            </div>
+            <p class="oferta__price-install">ou 12x de R$ 46,44</p>
+          </div>
+
+          <a href="#" class="btn btn--hero oferta__cta" id="ctaMain">
+            🌾 SIM! QUERO MEU ACESSO AGORA →
+          </a>
+
+          <p class="oferta__security-text">🔒 Pagamento 100% seguro | Acesso imediato após confirmação</p>
+
+          <div class="oferta__payments">
+            <!-- Visa -->
+            <svg class="pay-icon" width="52" height="34" viewBox="0 0 52 34" aria-label="Visa">
+              <rect width="52" height="34" rx="5" fill="#1A1F71"/>
+              <text x="26" y="24" font-family="Arial,sans-serif" font-size="15" font-weight="bold" font-style="italic" fill="#fff" text-anchor="middle">VISA</text>
+            </svg>
+            <!-- Mastercard -->
+            <svg class="pay-icon" width="52" height="34" viewBox="0 0 52 34" aria-label="Mastercard">
+              <rect width="52" height="34" rx="5" fill="#252525"/>
+              <circle cx="20" cy="17" r="10" fill="#EB001B"/>
+              <circle cx="32" cy="17" r="10" fill="#F79E1B"/>
+              <path d="M26 9.2a10 10 0 0 1 0 15.6A10 10 0 0 1 26 9.2z" fill="#FF5F00"/>
+            </svg>
+            <!-- Pix -->
+            <svg class="pay-icon" width="52" height="34" viewBox="0 0 52 34" aria-label="Pix">
+              <rect width="52" height="34" rx="5" fill="#32BCAD"/>
+              <text x="26" y="22" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">PIX</text>
+            </svg>
+            <!-- Boleto -->
+            <svg class="pay-icon" width="52" height="34" viewBox="0 0 52 34" aria-label="Boleto">
+              <rect width="52" height="34" rx="5" fill="#fff" stroke="#ddd"/>
+              <rect x="7"  y="9" width="2"  height="16" fill="#333"/>
+              <rect x="11" y="9" width="1"  height="16" fill="#333"/>
+              <rect x="14" y="9" width="3"  height="16" fill="#333"/>
+              <rect x="19" y="9" width="1"  height="16" fill="#333"/>
+              <rect x="22" y="9" width="2"  height="16" fill="#333"/>
+              <rect x="26" y="9" width="1"  height="16" fill="#333"/>
+              <rect x="29" y="9" width="3"  height="16" fill="#333"/>
+              <rect x="34" y="9" width="1"  height="16" fill="#333"/>
+              <rect x="37" y="9" width="2"  height="16" fill="#333"/>
+              <rect x="41" y="9" width="1"  height="16" fill="#333"/>
+            </svg>
+          </div>
+
+        </div><!-- /box -->
+
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════ FAQ ══ -->
+    <section class="faq" id="faq">
+      <div class="container">
+
+        <div class="faq__header">
+          <div class="section-label section-label--amber reveal">Dúvidas</div>
+          <h2 class="section-title reveal">Perguntas Frequentes</h2>
+        </div>
+
+        <div class="faq__list">
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Preciso ter doença celíaca para participar?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>Não! O desafio é para qualquer pessoa que queira observar como seu corpo reage sem o glúten. Mesmo quem não tem diagnóstico de doença celíaca pode se beneficiar — e muitas vezes se surpreende com os resultados.</p></div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Como vou receber o acesso?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>Após a confirmação do pagamento, você receberá as instruções de acesso por e-mail. O acesso é imediato e válido por <strong>12 meses</strong>.</p></div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Posso fazer o desafio grávida ou amamentando?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>Recomendamos que consulte seu médico ou nutricionista antes de iniciar qualquer mudança alimentar durante a gravidez ou amamentação.</p></div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              O desafio inclui plano alimentar personalizado?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>O desafio inclui guias completos de alimentação, receitas e orientações gerais. Para um plano personalizado, recomendamos consulta com nutricionista funcional.</p></div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              O que é a Edição Fundadores?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>A Edição Fundadores é a primeira turma do desafio, com <strong>50% de desconto exclusivo</strong>. Essa condição é única e não será repetida nas próximas edições.</p></div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Qual o suporte durante o desafio?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>Você terá acesso ao grupo no Telegram onde a comunidade e a equipe da Chef GlutenFree estarão presentes para apoio, dicas e motivação.</p></div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Posso parcelar o pagamento?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>Sim! O investimento pode ser parcelado em até <strong>12x de R$ 46,44</strong> no cartão de crédito.</p></div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              E se eu não gostar?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer"><p>Oferecemos <strong>garantia incondicional de 7 dias</strong>. Se não estiver satisfeito(a), devolvemos 100% do seu investimento sem perguntas.</p></div>
+          </details>
+
+        </div><!-- /faq__list -->
+
+        <div class="faq__cta reveal">
+          <p>Ainda tem dúvidas?</p>
+          <a href="https://wa.me/5500000000000" class="btn btn--chef" target="_blank" rel="noopener">
+            💬 Falar com o Suporte no WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════ FOOTER ══ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+
+      <div class="footer__main">
+        <div class="footer__brand">
+          <span class="footer__logo">Chef<span>GlutenFree</span></span>
+          <p class="footer__slogan">Receitas que funcionam. Alimentos que acolhem.</p>
+          <div class="footer__social">
+            <a href="https://youtube.com/@chefglutenfree" target="_blank" rel="noopener" class="footer__social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23 7s-.3-2-1.2-2.8c-1.1-1.2-2.4-1.2-3-1.3C16.2 2.8 12 2.8 12 2.8s-4.2 0-6.8.1c-.6.1-1.9.1-3 1.3C1.3 5 1 7 1 7S.7 9.1.7 11.2v2c0 2.1.3 4.2.3 4.2s.3 2 1.2 2.8c1.1 1.2 2.6 1.1 3.3 1.2C7.3 21.6 12 21.7 12 21.7s4.2 0 6.8-.2c.6-.1 1.9-.1 3-1.3.9-.8 1.2-2.8 1.2-2.8s.3-2.1.3-4.2v-2C23.3 9.1 23 7 23 7zM9.7 15.5V8.4l8.1 3.6-8.1 3.5z"/></svg>
+            </a>
+            <a href="https://instagram.com/chef.glutenfree" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://t.me/trintadiassemgluten" target="_blank" rel="noopener" class="footer__social-link" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.93 8.2l-2.07 9.9c-.15.67-.56.83-1.13.52l-3.1-2.3-1.5 1.44c-.16.16-.3.3-.62.3l.22-3.18 5.74-5.18c.25-.22-.05-.34-.39-.12L6.72 14.37l-3.06-.96c-.66-.2-.67-.66.14-.98l11.94-4.6c.55-.2 1.03.13.19.37z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__links-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#chef">Sobre a Chef</a></li>
+            <li><a href="#solucao">O Desafio</a></li>
+            <li><a href="#bonus">Bônus</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#oferta">Participar</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__disclaimer">
+        ⚕️ Este produto não substitui acompanhamento médico ou nutricional. Consulte um profissional de saúde antes de iniciar qualquer mudança alimentar, especialmente se você possui condições clínicas como diabetes, cirrose hepática ou distúrbios metabólicos.
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Chef GlutenFree | Todos os direitos reservados</p>
+        <div class="footer__bottom-links">
+          <a href="#">Política de Privacidade</a>
+          <span>·</span>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/5500000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
