@@ -1902,3 +1902,73 @@ summary:focus-visible { border-radius: var(--radius-md); }
   .trust-bar__divider { width: 40px; height: 1px; }
   .problema__grid { grid-template-columns: 1fr; }
 }
+
+/* ── Preço parcelado em destaque ── */
+.preco-wrapper {
+  text-align: center;
+  margin: 24px 0;
+}
+.preco-de {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 4px;
+}
+.preco-parcela {
+  font-size: 42px;
+  font-weight: 800;
+  color: #0D2E4E;
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+.preco-parcela strong {
+  color: #E8A020;
+}
+.preco-ou {
+  font-size: 16px;
+  color: #555;
+  margin-top: 4px;
+}
+
+/* ── Cards de receitas reais ── */
+.receita-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+.receita-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+.receita-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+.receita-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+.receita-card:hover .receita-img-wrapper img {
+  transform: scale(1.05);
+}
+.receita-dia {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #0D2E4E;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  z-index: 2;
+}
+.receita-content { padding: 20px; }
+.receita-badge { font-size: .75rem; font-weight: 600; color: var(--amber); display: block; margin-bottom: 8px; }
+.receita-content h3 { font-family: var(--font-display); font-size: 1rem; font-weight: 700; color: var(--green-deep); margin-bottom: 8px; }
+.receita-content p  { font-size: .875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 14px; }
+.receita-meta { display: flex; gap: 14px; font-size: .8rem; color: var(--text-muted); }
