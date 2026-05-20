@@ -1882,76 +1882,11 @@ summary:focus-visible { border-radius: var(--radius-md); }
   .problema__grid { grid-template-columns: 1fr; }
 }
 
-/* ── Bloco de preço padronizado ── */
-.preco-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 8px;
-  width: 100%;
-}
-.preco-de {
-  font-size: 15px;
-  color: #999;
-  text-decoration: line-through;
-  margin: 0;
-}
-.preco-parcela {
-  font-size: 36px;
-  font-weight: 800;
-  color: #0D2E4E;
-  margin: 0;
-  line-height: 1.1;
-}
-.preco-parcela strong {
-  color: #E8A020;
-}
-.preco-vista {
-  font-size: 15px;
-  color: #555;
-  margin: 0 0 8px 0;
-}
-.preco-vista strong {
-  color: #0D2E4E;
-  font-weight: 700;
-}
-.btn-cta {
-  display: block;
-  width: 100%;
-  max-width: 480px;
-  background: #E8A020;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  padding: 18px 32px;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-  margin: 8px auto 0 auto;
-  letter-spacing: 0.5px;
-}
-.btn-cta:hover {
-  background: #d4901a;
-  transform: scale(1.02);
-}
-.preco-seguro {
-  font-size: 13px;
-  color: #888;
-  margin: 8px 0 0 0;
-}
-.preco-box.invertido .preco-parcela { color: #ffffff; }
-.preco-box.invertido .preco-de { color: #ccc; }
-.preco-box.invertido .preco-vista { color: #ddd; }
-.preco-box.invertido .preco-vista strong { color: #ffffff; }
-.preco-box.invertido .preco-seguro { color: #bbb; }
-@media (max-width: 768px) {
-  .preco-parcela { font-size: 28px; }
-  .btn-cta { font-size: 16px; padding: 16px 24px; }
+/* ── Hover botão Hotmart (inline styles) ── */
+a[href*="hotmart"]:hover {
+  background: #d4901a !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(232,160,32,0.5) !important;
 }
 
 /* ── Cards de receitas reais ── */
