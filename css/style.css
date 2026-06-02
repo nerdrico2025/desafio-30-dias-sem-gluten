@@ -850,18 +850,17 @@ summary:focus-visible { border-radius: var(--radius-md); }
   box-sizing: border-box;
 }
 .dep-card__inner {
-  background: rgba(255,255,255,.1);
-  border: 1px solid rgba(255,255,255,.15);
-  border-radius: var(--radius-lg);
-  padding: 28px 24px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
   height: 100%;
   display: flex;
   flex-direction: column;
   gap: 18px;
-  transition: background .25s;
-  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 20px rgba(0,0,0,.08);
+  transition: box-shadow .25s, transform .25s;
 }
-.dep-card__inner:hover { background: rgba(255,255,255,.15); }
+.dep-card__inner:hover { box-shadow: 0 8px 32px rgba(0,0,0,.13); transform: translateY(-2px); }
 
 .dep-card__top {
   display: flex;
@@ -891,6 +890,13 @@ summary:focus-visible { border-radius: var(--radius-md); }
   font-size: 1.4rem;
   color: rgba(255,255,255,.4);
 }
+.dep-card__photo-ph--initial {
+  display: flex;
+  background: #0D2E4E;
+  color: #E8A020;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
 .dep-card__meta {
   display: flex;
   flex-direction: column;
@@ -900,14 +906,20 @@ summary:focus-visible { border-radius: var(--radius-md); }
 .dep-card__name {
   font-size: .9rem;
   font-weight: 700;
-  color: var(--white);
+  color: #1A3F6F;
 }
 .dep-card__city {
-  font-size: .75rem;
-  color: rgba(255,255,255,.55);
+  font-size: .875rem;
+  color: #6b7280;
+}
+.dep-card__context {
+  font-size: .8125rem;
+  font-style: italic;
+  color: #E8A020;
+  line-height: 1.4;
 }
 .dep-card__stars {
-  color: var(--orange-urgency);
+  color: #f59e0b;
   font-size: .85rem;
   letter-spacing: 2px;
   margin-top: 2px;
@@ -915,7 +927,7 @@ summary:focus-visible { border-radius: var(--radius-md); }
 .dep-card__text {
   font-size: .92rem;
   font-style: italic;
-  color: rgba(255,255,255,.82);
+  color: #374151;
   line-height: 1.75;
   flex: 1;
 }
@@ -923,14 +935,12 @@ summary:focus-visible { border-radius: var(--radius-md); }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(34,139,34,.35);
-  border: 1px solid rgba(100,200,100,.3);
-  color: #7DEFA7;
-  font-size: .75rem;
+  background: #E8F5E9;
+  color: #2E7D32;
+  font-size: .8125rem;
   font-weight: 700;
-  letter-spacing: .04em;
-  padding: 6px 14px;
-  border-radius: 99px;
+  padding: 4px 12px;
+  border-radius: 20px;
   width: fit-content;
 }
 .dep-card__badge::before { content: '✓'; font-size: .8rem; }
