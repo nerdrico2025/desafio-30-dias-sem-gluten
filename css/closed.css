@@ -1,0 +1,201 @@
+/* Variáveis de Cor (assumindo que existem em style.css e serão usadas aqui) */
+:root {
+    --azul-petroleo: #0d2e4e;
+    --laranja: #ff7f50; /* Exemplo de cor laranja, ajuste se necessário */
+    --branco: #ffffff;
+    --cinza-claro: #f5f5f0;
+    --preto: #000000; /* Adicionado para o texto */
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif; /* Use uma fonte padrão ou a do projeto */
+    background-color: var(--branco);
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.simple-navbar {
+    background-color: var(--branco); /* Ou outra cor que combine */
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid var(--cinza-claro); /* Linha sutil */
+}
+
+.simple-navbar .logo {
+    height: 50px; /* Ajuste conforme o tamanho do logo */
+    width: auto;
+}
+
+.main-content {
+    flex: 1;
+    background-color: var(--azul-petroleo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.content-wrapper {
+    max-width: 700px;
+}
+
+.main-content .icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.main-content .badge {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.main-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.email-form input[type="email"] {
+    padding: 1rem;
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--branco);
+    width: 80%;
+    max-width: 300px;
+    font-size: 1rem;
+}
+
+.email-form input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cta-button {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: darkorange; /* Tom ligeiramente mais escuro para hover */
+}
+
+.email-form small {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 300px;
+}
+
+.secondary-content {
+    background-color: var(--cinza-claro);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.secondary-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.secondary-content h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--azul-petroleo);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.social-links a {
+    color: var(--azul-petroleo);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--azul-petroleo);
+    color: var(--branco);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    margin-top: auto; /* Empurra o footer para baixo */
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Responsividade básica */
+@media (min-width: 768px) {
+    .simple-navbar {
+        padding: 1.5rem 0;
+    }
+
+    .main-content h1 {
+        font-size: 3rem;
+    }
+
+    .secondary-content {
+        padding: 4rem 1rem;
+    }
+
+    .secondary-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .social-links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .email-form {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email-form input[type="email"] {
+        width: auto;
+        min-width: 250px;
+    }
+}
